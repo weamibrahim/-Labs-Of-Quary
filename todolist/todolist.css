@@ -1,0 +1,144 @@
+body{
+    /* background-image:-webkit-linear-gradient(top left,rgb(247, 139, 139),rgb(228, 215, 224)) */
+    background-image:-webkit-linear-gradient(top left,#ECF9FF,#FFFBEB,#FFE7CC)
+  }
+  .list{
+   
+  text-align: center;
+  width: 700px;
+  height: 50px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding-top: 20px;
+  margin :20px auto;
+  animation-name: chacol;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  
+  
+  }
+
+  @keyframes chacol {
+    0%{
+      background-color: rgb(236, 249, 255);
+      
+    }
+    
+    25%{
+      background-color: rgb(255, 231, 204);
+    }
+    50%{
+      background-color: rgb(248, 203, 166);
+    }
+    100%{
+      background-color: #d88ae06d;
+      
+      
+  
+    }
+  }
+  
+  .container {
+    margin: 30px auto ;
+     
+      width: 700px;
+      margin-top: 200px;
+    
+      
+  
+    } 
+     .in {
+        /* margin-left: 300px; */
+      padding: 15px;
+      background-color:rgb(209, 52, 214,0.1);
+      position: relative;
+      border-radius:10px ;
+      width: 700px;
+
+    }
+    #name {
+      display: inline-block;
+      padding: 10px 15px;
+      border: none;
+      background-color: rgba(255, 255, 255);
+      width:500px;
+      color: #651717;
+      font-size: 20px;
+      border-radius:10px ;
+    }
+  ul{
+    /* margin-left: 300px; */
+    width: 700px;
+  }
+  
+    #btn{
+      width: 60px;
+      border-radius: 20px;
+      height: 40px;
+      background-color: #d88ae06d;
+      font-size: medium;
+      color: #b14040;
+     margin-left: 30px;
+      transition-duration: 1s;
+  }
+  #btn:hover{
+    transform: rotate(180deg);
+    background-color:#b4b4b4eb;
+  }
+ ul{
+    padding: 15px;
+    background-color: #b4b4b4eb;
+    position: relative; 
+    border-radius:10px ; 
+}
+  li {
+    display: block;
+    background-color: #FFF;
+    padding: 10px;
+    border-radius:20px ;
+    margin-bottom: 10px;
+  }
+  /* .content> span:not(:last-child) {
+    margin-bottom: 10px;
+    border-radius:10px ;
+  } */
+/* i .bi-trash3{
+
+    font-size: 20px;
+
+
+   color: #b14040;
+ }
+i .bi-check2{
+    font-size: 20px;
+    background-color: #b14040;
+} */
+.delete {
+    float: right;
+    background-color: #f55f91;
+    padding: 4px 5px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+   
+  }
+  
+  
+  .complete {
+  float: right;
+    background-color: #83feac;
+    padding: 4px 10px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+   
+    
+  }
+  .finish{
+    background-color: #83feac;
+  }
+  
