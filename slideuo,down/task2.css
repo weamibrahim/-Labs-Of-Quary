@@ -1,0 +1,25 @@
+img{
+ 
+    width: 200px;
+    height: 300px;
+
+    
+}
+.container{
+      width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+   
+  
+}
+.img{
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+}
