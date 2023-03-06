@@ -3,3 +3,5 @@
 [https://weamibrahim.github.io/-Labs-Of-Quary/todolist/todolist.html]
 ### hideshape
 [https://weamibrahim.github.io/-Labs-Of-Quary/hideshape/hide.html]
+### slide
+[https://weamibrahim.github.io/-Labs-Of-Quary/slide/slide.html]
